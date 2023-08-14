@@ -7,7 +7,6 @@ import pyarrow as pa
 import re
 import timeit
 
-
 small_aliens_numpy = pd.read_csv('data/small_cosmic.csv')
 
 small_aliens = pd.read_csv('data/small_cosmic.csv', engine='pyarrow', dtype_backend='pyarrow')
